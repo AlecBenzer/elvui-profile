@@ -1,0 +1,7 @@
+{
+    ["bags"] = {
+        ["enable"] = false,
+    },
+    ["theme"] = "class",
+    ["install_complete"] = "10.47",
+}::private
