@@ -1,0 +1,13 @@
+{
+    ["unitframe"] = {
+        ["ChannelTicks"] = {
+            ["Penance"] = 3,
+        },
+    },
+    ["general"] = {
+        ["minUiScale"] = 0.52,
+        ["autoScale"] = false,
+        ["commandBarSetting"] = "DISABLED",
+    },
+    ["uiScale"] = "0.42666666666667",
+}::global
