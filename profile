@@ -115,10 +115,18 @@
                 ["width"] = 200,
                 ["height"] = 26,
             },
-            ["party"] = {
-                ["rdebuffs"] = {
-                    ["font"] = "PT Sans Narrow",
+            ["player"] = {
+                ["portrait"] = {
+                    ["enable"] = true,
+                    ["camDistanceScale"] = 1.5,
                 },
+                ["castbar"] = {
+                    ["height"] = 28,
+                    ["width"] = 406,
+                    ["insideInfoPanel"] = false,
+                },
+                ["combatfade"] = true,
+                ["width"] = 200,
             },
             ["raid"] = {
                 ["rdebuffs"] = {
@@ -132,6 +140,17 @@
                 ["width"] = 200,
                 ["height"] = 26,
             },
+            ["boss"] = {
+                ["width"] = 200,
+                ["castbar"] = {
+                    ["width"] = 200,
+                },
+            },
+            ["raid40"] = {
+                ["rdebuffs"] = {
+                    ["font"] = "PT Sans Narrow",
+                },
+            },
             ["target"] = {
                 ["portrait"] = {
                     ["enable"] = true,
@@ -142,33 +161,15 @@
                     ["width"] = 200,
                 },
             },
-            ["player"] = {
-                ["portrait"] = {
-                    ["enable"] = true,
-                    ["camDistanceScale"] = 1.5,
-                },
-                ["castbar"] = {
-                    ["height"] = 28,
-                    ["width"] = 406,
-                    ["insideInfoPanel"] = false,
-                },
-                ["width"] = 200,
-            },
-            ["raid40"] = {
-                ["rdebuffs"] = {
-                    ["font"] = "PT Sans Narrow",
-                },
-            },
             ["arena"] = {
                 ["castbar"] = {
                     ["width"] = 200,
                 },
                 ["width"] = 200,
             },
-            ["boss"] = {
-                ["width"] = 200,
-                ["castbar"] = {
-                    ["width"] = 200,
+            ["party"] = {
+                ["rdebuffs"] = {
+                    ["font"] = "PT Sans Narrow",
                 },
             },
         },
@@ -181,21 +182,30 @@
     },
     ["actionbar"] = {
         ["bar3"] = {
+            ["showGrid"] = false,
+            ["inheritGlobalFade"] = true,
             ["buttons"] = 4,
         },
+        ["globalFadeAlpha"] = 1,
         ["bar2"] = {
             ["enabled"] = true,
+            ["inheritGlobalFade"] = true,
+            ["showGrid"] = false,
         },
         ["bar1"] = {
             ["heightMult"] = 2,
+            ["inheritGlobalFade"] = true,
+            ["showGrid"] = false,
         },
         ["bar5"] = {
             ["enabled"] = false,
         },
-        ["font"] = "PT Sans Narrow",
         ["backdropSpacingConverted"] = true,
+        ["font"] = "PT Sans Narrow",
         ["bar4"] = {
+            ["showGrid"] = false,
             ["mouseover"] = true,
+            ["backdrop"] = false,
         },
     },
     ["layoutSet"] = "dpsCaster",
