@@ -1,2 +1,2 @@
 # elvui-profile
-My [ElvUI](http://www.tukui.org/about.php?ui=elvui) profiles
+My [ElvUI](https://www.tukui.org/download.php?ui=elvui) profiles
